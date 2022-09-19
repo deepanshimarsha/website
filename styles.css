@@ -48,8 +48,13 @@ small{
 }
 
 .project-link{
-    /*padding-left: 15rem; */
-    /**text-align: center; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+    gap: 5px;
+    
 }
 /** links **/
 .link {
