@@ -31,6 +31,7 @@ small{
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
+    box-sizing: border-box;
 }
 
 .container-center {
@@ -42,6 +43,7 @@ small{
 .container-projects{
     max-width: 600px;
     margin: auto;
+    box-sizing: border-box;
 
 }
 
@@ -128,6 +130,7 @@ small{
 /* section */
 .section {
     padding: 2rem;
+    box-sizing: border-box;
 }
 
 .section h1{
@@ -229,6 +232,7 @@ button {
     gap: 10px;
     padding: 2rem;
     max-width: 600px;
+    box-sizing: border-box;
    
   }
   
@@ -237,6 +241,7 @@ button {
  
     text-align: left;
     padding: 2rem;
+    box-sizing: border-box;
 
     
   }
